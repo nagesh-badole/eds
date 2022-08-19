@@ -11295,6 +11295,7 @@ html {
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
+  height: 100vh;
 }
 
 .content-section-heading h2, .content-section-heading .h2 {
@@ -11427,6 +11428,21 @@ html {
   background-size: cover;
 }
 .callout h2, .callout .h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  display: block;
+  max-width: 30rem;
+}
+
+.developedInfo {
+  padding: 15rem 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.developedInfo h2, .developedInfo .h2 {
   font-size: 3.5rem;
   font-weight: 700;
   display: block;
