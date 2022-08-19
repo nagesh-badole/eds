@@ -11441,6 +11441,9 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
+  
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 .developedInfo h2, .developedInfo .h2 {
   font-size: 3.5rem;
